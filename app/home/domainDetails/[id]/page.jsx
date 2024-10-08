@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import Loader from "@/Components/Loader";
+import Loader from "@/components/Loader";
 
 const formatDate = (dateString) => {
   const options = { day: "2-digit", month: "long", year: "numeric" };

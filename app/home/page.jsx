@@ -3,9 +3,9 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Sidebar from "@/Components/sidebar";
-import Pagination from "@/Components/Pagination";
-import Search from "@/Components/Search";
+import Sidebar from "@/components/sidebar";
+import Pagination from "@/components/Pagination";
+import Search from "@/components/Search";
 
 const HomePage = () => {
   const [selectedTab, setSelectedTab] = useState("Domains"); // Default to "Domains"
